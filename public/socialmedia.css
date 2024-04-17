@@ -1,0 +1,30 @@
+.Display_Social_Media{
+    padding: 250px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: larger;
+}
+.Display_Social_Media {
+    text-align: center; 
+}
+
+.Display_Social_Media span {
+    margin: 0 20px; 
+    display: inline-block; 
+}
+
+.one, .two, .three {
+    word-spacing: 10px;
+    display: inline-block; 
+    margin: 10px auto; 
+}
+.Display_Social_Media img {
+    word-spacing: 100px;
+    display: inline; 
+    margin-top: 10px; 
+    width: 30px;
+    height: 30px;
+    
+}
+
+
