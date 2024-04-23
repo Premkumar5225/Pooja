@@ -1,5 +1,5 @@
 module.exports = {
-    connectionurl: 'mongodb+srv://priyatham52:Mm1yKYGTQVkTuTF3@cluster0.yh7n8gh.mongodb.net/',
+    connectionurl: 'mongodb+srv://donuru:donuru123@atlascluster.ruetquz.mongodb.net/',
     database: 'tickets',
     collection: 'ticket_details'
   };

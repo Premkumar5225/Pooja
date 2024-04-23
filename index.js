@@ -103,8 +103,8 @@ const server = http.createServer((req, res) => {
 });
 
 // it will first try to look for
-// environment variable, if not found then go for 5959
-const PORT= 3000;
+// environment variable, if not found then go for 9033 Pooja Donnuru
+const PORT= 9033;
 
 // port, callback
 server.listen(PORT,()=> console.log(`Great our server is running on port ${PORT} `));

@@ -4,7 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pooja Donuru</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.header-tab {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header-tab a {
+    color: #fff;
+}
+
+.Display-About,
+.Display-Projects,
+.Display-Experience,
+.Display-Education,
+.Display-Blogs,
+.Display-Social_Media {
+    padding: 20px;
+    background-color: #d3d3d3;
+    margin: 2px 0;
+}
+
+.Display-About h3,
+.Display-Projects h3,
+.Display-Education h3,
+.Display-Experience h3,
+.Display-Blogs h3,
+.Display-Social_Media h3 {
+    color: #333;
+}
+
+.Display-Education {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edu {
+    flex: 1; 
+    margin-right: 15px;
+}
+
+
+
+.Display-About{
+    text-align: center;
+}
+
+.Display-About img {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .header-tab {
+        flex-direction: column;
+    }
+
+    .Display-About img {
+        order: -1;
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+    }
+}
+.Display-Social_Media {
+    text-align: center; 
+}
+
+.Display-Social_Media span {
+    margin: 0 20px; 
+    display: inline-block; 
+}
+
+.one, .two, .three {
+    word-spacing: 10px;
+    display: inline-block; 
+    margin: 10px auto; 
+}
+
+.Display_About{
+    padding: 100px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: larger;
+}
+.Display_About img {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 0%;
+    object-fit: cover;
+    }
+
+
+.Display_Blogs{
+     padding: 200px;
+     background-color: #d3d3d3;
+     margin: 50px 0;
+    font-size: larger;
+ }
+
+ .Display_Education{
+    padding: 200px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: small;
+}
+.Display_Education {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edu {
+    flex: 1; 
+    margin: auto;
+}
+
+.Display_Experience{
+    padding: 200px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: larger;
+}
+
+
+.Display_Projects{
+    padding: 200px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: larger;
+}
+
+.Display_Social_Media{
+    padding: 250px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: larger;
+}
+.Display_Social_Media {
+    text-align: center; 
+}
+
+.Display_Social_Media span {
+    margin: 0 20px; 
+    display: inline-block; 
+}
+
+.one, .two, .three {
+    word-spacing: 10px;
+    display: inline-block; 
+    margin: 10px auto; 
+}
+.Display_Social_Media img {
+    word-spacing: 100px;
+    display: inline; 
+    margin-top: 10px; 
+    width: 30px;
+    height: 30px;
+    
+}
+
+.Display_Blogs{
+    padding: 200px;
+    background-color: #d3d3d3;
+    margin: 50px 0;
+    font-size: larger;
+}
+
+
+    </style>
 </head>
 <body>
     <div class="header-tab">

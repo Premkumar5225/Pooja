@@ -1,52 +1,51 @@
 [
   {
-    "_id": "662059e0d5d6dd61bdd17440",
-    "ticket_details": [
-      {
-        "TicketNumber": "T12345",
-        "TicketPrice": 100.5,
-        "Source": "New York",
-        "Destination": "Los Angeles",
-        "DateOfJourney": "2024-04-01",
-        "DurationOfJourney": "5 hours",
-        "ModeOfTransport": "Flight"
-      },
-      {
-        "TicketNumber": "T23456",
-        "TicketPrice": 50.75,
-        "Source": "London",
-        "Destination": "Paris",
-        "DateOfJourney": "2024-04-15",
-        "DurationOfJourney": "2.5 hours",
-        "ModeOfTransport": "Train"
-      },
-      {
-        "TicketNumber": "T34567",
-        "TicketPrice": 25,
-        "Source": "Tokyo",
-        "Destination": "Kyoto",
-        "DateOfJourney": "2024-05-10",
-        "DurationOfJourney": "3 hours",
-        "ModeOfTransport": "Bus"
-      },
-      {
-        "TicketNumber": "T45678",
-        "TicketPrice": 75.2,
-        "Source": "Sydney",
-        "Destination": "Melbourne",
-        "DateOfJourney": "2024-06-01",
-        "DurationOfJourney": "1.5 hours",
-        "ModeOfTransport": "Flight"
-      },
-      {
-        "TicketNumber": "T56789",
-        "TicketPrice": 30.9,
-        "Source": "Berlin",
-        "Destination": "Munich",
-        "DateOfJourney": "2024-07-05",
-        "DurationOfJourney": "4 hours",
-        "ModeOfTransport": "Train"
-      }
-    ]
+    "_id": "662435e7c4a99672fd9bb3c1",
+    "TicketNumber": "T12345",
+    "TicketPrice": "100.5",
+    "Source": "New york",
+    "Destination": "Los Angeles",
+    "DateOfJourney": "2024-04-01",
+    "DurationOfJourney": "5 hours",
+    "ModeOfTransport": "Flight"
+  },
+  {
+    "_id": "662436e3c4a99672fd9bb3c2",
+    "TicketNumber": "T23456",
+    "TicketPrice": "50.75",
+    "Source": "London",
+    "Destination": "Paris",
+    "DateOfJourney": "2024-04-15",
+    "DurationOfJourney": "2.5",
+    "ModeOfTransport": "Train"
+  },
+  {
+    "_id": "66243759c4a99672fd9bb3c3",
+    "TicketNumber": "T34567",
+    "TicketPrice": "25",
+    "Source": "Tokyo",
+    "Destination": "Kyoto",
+    "DateOfJourney": "2024-05-10\"",
+    "ModeOfTransport": "Bus"
+  },
+  {
+    "_id": "662437cdc4a99672fd9bb3c4",
+    "TicketNumber": "T45678",
+    "TicketPrice": "75.2",
+    "Source": "Sydney",
+    "Destination": "Melbourne",
+    "DateOfJourney": "2024-06-01",
+    "DurationOfJourney": "1.5 hours",
+    "ModeOfTransport": "Flight"
+  },
+  {
+    "_id": "66243898c4a99672fd9bb3c5",
+    "TicketNumber": "T56789",
+    "TicketPrice": "30.9",
+    "Source": "Berlin",
+    "Destination": "Munich",
+    "DateOfJourney": "2024-07-05\"",
+    "DurationOfJourney": "4 hours",
+    "ModeOfTransport": "Train"
   }
 ]
